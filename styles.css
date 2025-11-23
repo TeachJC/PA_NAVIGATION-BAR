@@ -1,0 +1,23 @@
+body{
+    font-family: 'Gill Sans';
+    background-image: url( Las\ Pinas\ Facade.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#box{
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.78);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15.6px);
+-webkit-backdrop-filter: blur(15.6px);
+border: 1px solid rgba(255, 255, 255, 1);
+
+}
